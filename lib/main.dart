@@ -12,6 +12,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   var _bodyText = 'This is body text';
+  var _bodyText2 = 'this is body text2';
 
   void _changeBodyText() {
     setState(() {
